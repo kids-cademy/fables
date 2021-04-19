@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<groupId>com.kidscademy.fables</groupId>
+	<artifactId>home</artifactId>
+	<version>1.0</version>
+
+	<title>Home Page</title>
+	<description>Home page description.</description>
+
+	<scripts>
+		<script src="script/com/kidscademy/fables/page/Home.js" defer="true" />
+	</scripts>
+</page>
