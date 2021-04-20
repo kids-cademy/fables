@@ -1,0 +1,33 @@
+body {
+	background-image: url("@image/page-bg");
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.js-panorama {
+	width: 10000px;
+	height: 560px;
+	margin: 80px 0;
+}
+
+.fable-view {
+	height: 561px;
+}
+
+.fable-view p {
+	line-height: 22px;
+	margin-bottom: 22px;
+	font-size: 14px;
+}
+
+/**
+ * Text masking — The SVG way
+ */
+
+svg {
+	width: 6em; height: 1.5em;
+	font: 900 500%/1.2 'Arial Black', sans-serif;
+	color: black;
+}
+
+text { fill: url(#wood); }

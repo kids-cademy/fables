@@ -1,0 +1,7 @@
+.column-text .column {
+	width: 100%;
+}
+
+.column-text .column p {
+	white-space: normal;
+}

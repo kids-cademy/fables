@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dimen>
+	<column-width>400px</column-width>
+	<column-gap>40px</column-gap>
+	<font-size>18px</font-size>
+	<line-height>22px</line-height>
+</dimen>

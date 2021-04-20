@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compo>
+	<groupId>com.js-lib</groupId>
+	<artifactId>sys-dialog</artifactId>
+	<version>1.0.0</version>
+
+	<dependencies>
+		<depedency>
+			<groupId>com.js-lib</groupId>
+			<artifactId>box</artifactId>
+			<version>1.0.0</version>
+		</depedency>
+	</dependencies>
+</compo>

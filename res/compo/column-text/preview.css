@@ -1,0 +1,35 @@
+body {
+	height: 448px;
+}
+
+.column-text {
+	boder: dotted 1px;
+}
+
+.column-text .column {
+	width: 300px;
+	margin: 0 20px;	
+	xpadding: 40px;
+	xborder: solid 1px;
+	background-color: @color/gray-lighter;
+}
+
+.column-text .paragraph {
+	line-height: 32px;
+	margin-bottom: 32px;
+	font-size: 24px;
+}
+
+svg.text {
+	width: 1000px;
+	height: 300px;
+	border: solid 1px cadetblue;
+	background-color: green;
+	background-image: url(@image/page-bg);
+}
+svg text {
+	font-family: "Open Sans";
+	font-size: 32px;
+	xfont-weight: bold;
+	color: white;
+}

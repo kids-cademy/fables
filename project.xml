@@ -5,13 +5,15 @@
 	<description>Fables for kids, small and big alike.</description>
 	<locale>en</locale>
 
+	<naming>DATA_ATTR</naming>
+	
 	<media-queries>
 		<media-query alias="portrait" expression="orientation: portrait" />
 		<media-query alias="lgd" expression="min-width: 1200px" />
 		<media-query alias="mdd" expression="max-width: 992px" />
 		<media-query alias="smd" expression="max-width: 768px" />
 		<media-query alias="xsd" expression="max-width: 560px" />
-		<media-query alias="h700" expression="max-height: 700px" />
+		<media-query alias="h740" expression="max-height: 740px" />
 	</media-queries>
 
 	<head>

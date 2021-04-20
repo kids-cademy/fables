@@ -1,5 +1,20 @@
-<body class="page" xmlns:w="js-lib.com/wood">
-	<h1>@param/title</h1>
-	<section w:editable="section"></section>
-	<footer>@string/copyright</footer>
+<body class="no-select">
+	<header>
+		<div class="container">
+			<a href="http://kids-cademy.com/index.htm"><img src="@image/kids-cademy-logo" class="logo" /><span class="logo-type">@string/kids-cademy</span></a>
+			<nav>
+				<a href="play.htm">@string/play</a><a href="catalog.htm">@string/catalog</a><a href="about.htm">about</a><a class="full-screen">full</a>
+			</nav>
+		</div>
+	</header>
+	<div data-compo="res/compo/sys-message"></div>
+	<section class="body">
+		<div data-editable="body"></div>
+		<br clear="all" />
+	</section>
+	<footer data-editable="footer"></footer>
+	<div class="components">
+		<div data-compo="lib/sys-dialog"></div>
+		<div data-editable="components"></div>
+	</div>
 </body>

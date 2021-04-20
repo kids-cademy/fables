@@ -1,0 +1,12 @@
+body {
+	background-color: #9b5d29;
+	background-image: url("@image/page-bg");
+	font-family: "Open Sans";
+	font-size: 10px;
+	overflow: hidden;
+}
+
+.js-panorama {
+	height: 560px;
+	margin: 80px 0;
+}

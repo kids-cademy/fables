@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<compo>
+	<title>fables-list</title>
+	<scripts>
+		<script src="script/com/kidscademy/fables/FablesListView.js" defer="true"></script>
+	</scripts>
+</compo>

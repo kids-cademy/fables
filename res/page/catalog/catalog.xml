@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<page>
+	<title>catalog</title>
+	<scripts>
+		<script src="script/com/kidscademy/fables/DataSource.js" defer="true"></script>
+		<script src="script/com/kidscademy/fables/CatalogPage.js" defer="true"></script>
+	</scripts>
+</page>

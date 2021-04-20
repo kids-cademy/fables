@@ -14,41 +14,87 @@
 	display: none !important;
 }
 
-.section-icon {
-	position: relative;
-	width: 0;
-	height: 0;
-	left: 80%;
-	/* --section-icon-size * 0.5 + --section-padding */
-	top: 90px;
+.icon.menu {
+	background-image: url(@image/menu-icon);
 }
 
-.section-icon.bottom {
-	top: 10px;
-	/* --section-icon-size * 0.5 + --section-padding */
-	bottom: 90px;
+.icon.close {
+	background-image: url(@image/close-icon);
 }
 
-.section-icon img {
-	width: var(--section-icon-size);
-	height: var(--section-icon-size);
-	background-color: var(--teal-100);
-	border-radius: 50%;
-	box-shadow: 0 0 15px #408080;
-	box-sizing: border-box;
-	opacity: 0.8;
+.icon.play {
+	background-image: url(@image/play-icon);
 }
 
-.section-icon.big img {
-	width: var(--section-icon-big-size);
-	height: var(--section-icon-big-size);
-	border-radius: 50%;
+.icon.pause {
+	background-image: url(@image/pause-icon);
 }
 
-.section-icon.padding {
-	top: -70px;
+.icon.stop {
+	background-image: url(@image/stop-icon);
 }
 
-.section-icon.padding img {
-	padding: 16px;
+.icon.collapse {
+	background-image: url(@image/collapse-icon);
+}
+
+.icon.expand {
+	background-image: url(@image/expand-icon);
+}
+
+.icon.plus {
+	background-image: url(@image/plus-icon);
+}
+
+.icon.minus {
+	background-image: url(@image/minus-icon);
+}
+
+.icon.share {
+	background-image: url(@image/share-icon);
+	background-size: 38px 38px;
+}
+
+.icon.facebook {
+	background-color: rgba(53, 88, 158, 0.8);
+	background-image: url(@image/facebook-icon);
+}
+
+.icon.twitter {
+	background-color: rgba(00, 171, 241, 0.8);
+	background-image: url(@image/twitter-icon);
+}
+
+.icon.email {
+	background-image: url(@image/email-icon);
+	background-size: 38px 38px;
+}
+
+.icon.tiles {
+	background-image: url(@image/tiles-icon);
+}
+
+.icon.list {
+	background-image: url(@image/list-icon);
+}
+
+.icon.grid {
+	background-image: url(@image/grid-icon);
+}
+
+.icon.large-grid {
+	background-image: url(@image/large-grid-icon);
+}
+
+.icon.search {
+	background-image: url(@image/search-icon);
+}
+
+.icon.place {
+	background-image: url(@image/place-icon);
+	background-size: 38px 38px;
+}
+
+.icon.link {
+	background-image: url(@image/link-icon);
 }

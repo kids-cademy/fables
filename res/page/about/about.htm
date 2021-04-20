@@ -1,0 +1,33 @@
+<div class="about" data-template="res/template/full-page#body" data-script="com.kidscademy.fables.AboutPage">
+	<div class="about-message">
+		<div class="container">
+			<h1>@string/message-title</h1>
+			<p>@text/about-message</p>
+		</div>
+	</div>
+	<div class="container developers" data-list=".">
+		<div class="developer">
+			<img data-src="picture" />
+			<h1 data-text="name"></h1>
+			<h2 data-text="expertise"></h2>
+			<h3>
+				<img src="@image/place-icon" /><span data-text="place"></span>
+			</h3>
+			<a class="email" data-to="Iulian Rotaru"><img class="email" src="@image/email-icon" /><span>send email</span></a>
+			<div data-if="link">
+				<a data-href="link.url"><img src="@image/link-icon" /><span data-text="link.name"></span></a>
+			</div>
+		</div>
+	</div>
+	<div class="message-form hidden" data-class="com.kidscademy.fables.MessageForm">
+		<div class="container">
+			<form>
+				<input name="developerName" disabled="disabled" />
+				<textarea name="text" placeholder="@string/text" rows="10" data-class="com.kidscademy.fables.TextArea"></textarea>
+				<input name="senderEmail" type="email" placeholder="@string/email" />
+			</form>
+			<button class="submit">@string/submit</button>
+			<button class="cancel">@string/cancel</button>
+		</div>
+	</div>
+</div>

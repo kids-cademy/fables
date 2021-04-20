@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<compo>
+	<title>fables-section</title>
+	<scripts>
+		<script src="script/com/kidscademy/fables/SysMessage.js" defer="true"></script>
+	</scripts>
+</compo>

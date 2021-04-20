@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<page>
+	<title>about</title>
+	<scripts>
+		<script src="script/com/kidscademy/fables/DataSource.js" defer="true"></script>
+		<script src="script/com/kidscademy/fables/Form.js" defer="true"></script>
+		<script src="script/com/kidscademy/fables/MessageForm.js" defer="true"></script>
+		<script src="script/com/kidscademy/fables/TextArea.js" defer="true"></script>
+		<script src="script/com/kidscademy/fables/AboutPage.js" defer="true"></script>
+	</scripts>
+</page>

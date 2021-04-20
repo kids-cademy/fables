@@ -1,0 +1,16 @@
+a[href='play.htm'] {
+	border-color: @color/page-header-active;
+}
+
+body {
+	overflow-y: hidden;
+}
+
+.no-ads {
+	display: none;
+}
+
+.js-panorama {
+	height: 570px;
+	margin-top: 80px;
+}

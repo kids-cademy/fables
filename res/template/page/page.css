@@ -1,3 +1,97 @@
-.page {
+body {
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin-bottom: 20px;
+	background-color: #D4AF7B;
+	background-image: url(@image/page-bg);
+	xbackground-color: #b78353;
+	background-attachment: fixed;
+	background-size: cover;
+}
 
+body>header {
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	height: @dimen/page-header-height;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.compo.no-ads {
+	position: fixed;
+	left: 80%;
+	top: 25px;
+	z-index: 100;
+}
+
+.sys-message {
+	margin-top: @dimen/page-header-height;
+}
+
+body>section.body {
+	padding: @dimen/page-header-height 0 40px;
+}
+
+body>section {
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+body header .content {
+	white-space: nowrap;
+}
+
+body>header .logo-type {
+	display:inline-block;
+	height: @dimen/page-header-height;
+	line-height: @dimen/page-header-height;
+	margin: 0 80px 0 0;
+	padding: 0;
+	xfont-family: "Great Vibes";
+	font-size: 28px;
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	width: 80px;
+	height: 80px;
+	margin: 0 10px 10px 0;
+	cursor: pointer;
+}
+
+body>header nav {
+	display: inline-block;
+	white-space: nowrap;
+}
+
+body>header nav a {
+	xdisplay: inline-block;
+	font-size: 22px;
+	xheight: @dimen/page-header-height;
+	xline-height: @dimen/page-header-height;
+	margin: 0 20px;
+	padding: 0 0 18px 0;
+	xtext-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: @color/page-header-link;
+	border-bottom: solid 1px transparent;
+	cursor: pointer;
+}
+
+body>header nav a:hover {
+	color: @color/page-header-link-hover;
+}
+
+.components {
+	display: none;
 }

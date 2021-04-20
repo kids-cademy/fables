@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dimen>
+	<column-width>400px</column-width>
+	<column-gap>40px</column-gap>
+	<page-header-height>80px</page-header-height>
+	<sys-message-height>60px</sys-message-height>
+
+	<focus-border-size>1px</focus-border-size>
+
+	<max-z-index>2147483647</max-z-index>
+</dimen>
