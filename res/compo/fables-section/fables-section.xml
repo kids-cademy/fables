@@ -2,8 +2,10 @@
 <compo>
 	<title>fables-section</title>
 	<scripts>
+		<script src="script/com/kidscademy/fables/DataSource.js" defer="true"></script>
 		<script src="script/com/kidscademy/fables/SectionHeader.js" defer="true"></script>
 		<script src="script/com/kidscademy/fables/SectionGrid.js" defer="true"></script>
+		<script src="script/com/kidscademy/fables/FableCloseListener.js" defer="true"></script>
 		<script src="script/com/kidscademy/fables/SectionView.js" defer="true"></script>
 	</scripts>
 </compo>

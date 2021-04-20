@@ -2,22 +2,12 @@
 <page>
 	<title>play</title>
 	<scripts>
-		<script src="lib/box/box.js" defer="true"></script>
+		<script src="script/com/kidscademy/fables/AudioPlayer.js" defer="true"></script>
+		<script src="script/com/kidscademy/fables/DataSource.js" defer="true"></script>
 		<script src="lib/js-panorama/js-panorama.js" defer="true"></script>
+		<script src="script/com/kidscademy/fables/SectionViewGroup.js" defer="true"></script>
 		<script src="script/js/event/keyEvents.js" defer="true"></script>
 		<script src="script/js/event/Manager.js" defer="true"></script>
-		<script src="script/com/kidscademy/fables/SectionViewGroup.js" defer="true"></script>
-		<script src="script/com/kidscademy/fables/DataSource.js" defer="true"></script>
-		<script src="script/com/kidscademy/fables/ColumnText.js" defer="true"></script>
-		<script src="script/com/kidscademy/fables/SectionHeader.js" defer="true"></script>
-		<script src="script/com/kidscademy/fables/SectionGrid.js" defer="true"></script>
-		<script src="script/com/kidscademy/fables/SectionView.js" defer="true"></script>
-		<script src="script/com/kidscademy/fables/FableCloseListener.js" defer="true"></script>
-		<script src="script/com/kidscademy/fables/FableView.js" defer="true"></script>
-		<script src="script/com/kidscademy/fables/FablesListView.js" defer="true"></script>
-		<script src="script/com/kidscademy/fables/AudioPlayer.js" defer="true"></script>
-		<script src="script/com/kidscademy/fables/Dialog.js" defer="true"></script>
-		<script src="script/com/kidscademy/fables/SharingDialog.js" defer="true"></script>
 		<script src="script/com/kidscademy/fables/Page.js" defer="true"></script>
 		<script src="script/com/kidscademy/fables/PlayPage.js" defer="true"></script>
 	</scripts>

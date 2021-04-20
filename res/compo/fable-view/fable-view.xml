@@ -2,6 +2,7 @@
 <compo>
 	<title>fable-view</title>
 	<scripts>
+		<script src="script/com/kidscademy/fables/DataSource.js" defer="true"></script>
 		<script src="script/com/kidscademy/fables/FableView.js" defer="true"></script>
 	</scripts>
 </compo>

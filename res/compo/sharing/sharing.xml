@@ -2,6 +2,7 @@
 <compo>
 	<title>sharing</title>
 	<scripts>
+		<script src="script/com/kidscademy/fables/DataSource.js" defer="true"></script>
 		<script src="script/com/kidscademy/fables/Sharing.js" defer="true"></script>
 	</scripts>
 </compo>
