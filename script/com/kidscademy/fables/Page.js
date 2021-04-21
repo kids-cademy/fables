@@ -11,16 +11,6 @@ $package("com.kidscademy.fables");
 com.kidscademy.fables.Page = function() {
 	this.$super();
 
-	var fullScreen = document.getElementsByClassName("full-screen")[0];
-	fullScreen.addEventListener("click", function(ev) {
-		if (!this.isFullScreen()) {
-			this.requestFullScreen();
-		}
-		else {
-			this.cancelFullScreen();
-		}
-	}.bind(this));
-
 	/**
 	 * Global event manager instance.
 	 * 
