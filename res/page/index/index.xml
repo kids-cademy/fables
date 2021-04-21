@@ -2,6 +2,9 @@
 <page>
 	<title>index</title>
 	<scripts>
+		<script src="script/js/event/keyEvents.js" defer="true"></script>
+		<script src="script/js/event/Manager.js" defer="true"></script>
+		<script src="script/com/kidscademy/fables/Page.js" defer="true"></script>
 		<script src="script/com/kidscademy/fables/IndexPage.js" defer="true"></script>
 	</scripts>
 </page>
