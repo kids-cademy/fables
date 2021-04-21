@@ -81,6 +81,7 @@ com.kidscademy.fables.CatalogPage.prototype = {
 				fables.push(fable);
 			}
 		});
+		this._fablesView.show();
 		this._fablesView.setObject(fables);
 	},
 
