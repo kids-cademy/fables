@@ -13,12 +13,9 @@ com.kidscademy.fables.Page = function() {
 
 	/**
 	 * Global event manager instance.
-	 * 
 	 * @type js.event.Manager
 	 */
 	this._eventManager = new js.event.Manager();
-
-	// $E("#sys-message-id").info("test")
 };
 
 com.kidscademy.fables.Page.prototype = {
