@@ -101,4 +101,4 @@ com.kidscademy.fables.CatalogPage.prototype = {
 		return "com.kidscademy.fables.CatalogPage";
 	}
 };
-$extends(com.kidscademy.fables.CatalogPage, js.ua.Page);
+$extends(com.kidscademy.fables.CatalogPage, com.kidscademy.fables.Page);

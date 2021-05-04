@@ -21,9 +21,9 @@ com.kidscademy.fables.Sharing = function(ownerDoc, node) {
 	 */
 	this._siteSharingObject = {
 		url : com.kidscademy.fables.DataSource.getSiteURL(),
-		image : com.kidscademy.fables.DataSource.getFileURL("media/sharing-logo.jpg"),
+		image : com.kidscademy.fables.DataSource.getFileURL("@image/sharing-logo"),
 		title : "@string/app-name",
-		description : "@string/logo-type"
+		description : "@string/app-description"
 	};
 
 	/**

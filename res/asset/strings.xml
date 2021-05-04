@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <string>
-	<app-name>Fables</app-name>
-	<logo-type>Fables for kids, small and big alike.</logo-type>
+	<app-name>Kids Fables</app-name>
+	<app-short-name>Fables</app-short-name>	
+	<app-description>Fables for kids, small and big alike.</app-description>
 	<kids-cademy>kids (a)cademy</kids-cademy>
 	<submit>Submit</submit>
 	<cancel>Cancel</cancel>

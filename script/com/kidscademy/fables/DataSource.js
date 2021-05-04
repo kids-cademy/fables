@@ -12,9 +12,9 @@ com.kidscademy.fables.DataSource = {
 	 * 
 	 * @type String
 	 */
-	DATA_URL : "http://data.kids-cademy.com/fables/",
+	DATA_URL : "https://js-lib.com/apps/fables/data/",
 
-	SITE_URL : "http://fables.kids-cademy.com/",
+	SITE_URL : "https://js-lib.com/apps/fables/",
 
 	loadDescriptors : function(callback, scope) {
 		var url = this.DATA_URL + "panorama.json";

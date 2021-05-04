@@ -16,14 +16,14 @@ com.kidscademy.fables.AboutPage = function() {
 	 * 
 	 * @type js.dom.Element
 	 */
-	this._developerListView = WinMain.doc.getByCss(".about .developers");
+	this._developerListView = this.getByCss(".about .developers");
 
 	/**
 	 * Developer message form.
 	 * 
 	 * @type com.kidscademy.fables.MessageForm
 	 */
-	this._messageForm = WinMain.doc.getByClass(com.kidscademy.fables.MessageForm);
+	this._messageForm = this.getByClass(com.kidscademy.fables.MessageForm);
 	this._messageForm.on("submitted", this._onMessageFormDone, this);
 	this._messageForm.on("canceled", this._onMessageFormDone, this);
 
@@ -40,7 +40,7 @@ com.kidscademy.fables.AboutPage = function() {
 com.kidscademy.fables.AboutPage.prototype = {
 	_onDevelopersLoad: function(developers) {
 		this._developerListView.setObject(developers);
-		WinMain.doc.findByCss(".developer .email").on("click", this._onEmailClick, this);
+		this.findByCss(".developer .email").on("click", this._onEmailClick, this);
 	},
 	
 	_onEmailClick : function(ev) {
@@ -64,4 +64,4 @@ com.kidscademy.fables.AboutPage.prototype = {
 		return "com.kidscademy.fables.AboutPage";
 	}
 };
-$extends(com.kidscademy.fables.AboutPage, js.ua.Page);
+$extends(com.kidscademy.fables.AboutPage, com.kidscademy.fables.Page);

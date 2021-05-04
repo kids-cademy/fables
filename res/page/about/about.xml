@@ -6,6 +6,9 @@
 		<script src="script/com/kidscademy/fables/Form.js" defer="true"></script>
 		<script src="script/com/kidscademy/fables/MessageForm.js" defer="true"></script>
 		<script src="script/com/kidscademy/fables/TextArea.js" defer="true"></script>
+		<script src="script/js/event/keyEvents.js" defer="true"></script>
+		<script src="script/js/event/Manager.js" defer="true"></script>
+		<script src="script/com/kidscademy/fables/Page.js" defer="true"></script>
 		<script src="script/com/kidscademy/fables/AboutPage.js" defer="true"></script>
 	</scripts>
 </page>
